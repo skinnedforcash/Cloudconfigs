@@ -1,0 +1,307 @@
+:root {
+    --bg: #0b0c0e;
+    --panel: #17181d;
+    --panel-alt: #1c1d23;
+    --border: #07080a;
+    --text: #e8e9ec;
+    --text-dim: #8a8d96;
+    --accent: #5b8def;
+    --accent-dim: #3c5c99;
+    --radius: 4px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+}
+
+.shell {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 60px;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-accent {
+    width: 3px;
+    height: 20px;
+    background: var(--accent);
+    border-radius: 2px;
+    box-shadow: 0 0 8px var(--accent);
+}
+
+.brand h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth-status {
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+.panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 100%;
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    padding: 8px 10px;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.search:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: var(--radius);
+    position: relative;
+}
+
+.entry:hover {
+    background: rgba(91, 141, 239, 0.08);
+}
+
+.entry-indicator {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: var(--accent);
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.12s linear;
+}
+
+.entry:hover .entry-indicator {
+    opacity: 1;
+}
+
+.entry-info {
+    min-width: 0;
+    padding-left: 10px;
+}
+
+.entry-title {
+    font-size: 13px;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entry-meta {
+    font-size: 11px;
+    color: var(--text-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entry-actions {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.empty {
+    color: var(--text-dim);
+    font-size: 12px;
+    padding: 8px 4px;
+}
+
+.upload-panel h2 {
+    font-size: 14px;
+    margin: 0 0 6px;
+}
+
+.hint {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.5;
+    margin: 0 0 14px;
+}
+
+.hint a {
+    color: var(--accent);
+}
+
+.hint code {
+    background: var(--panel-alt);
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#upload-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+#upload-form input,
+#upload-form textarea {
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+#upload-form textarea {
+    min-height: 100px;
+    resize: vertical;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 12px;
+}
+
+#upload-form input:focus,
+#upload-form textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.upload-status {
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+.btn {
+    border: none;
+    border-radius: var(--radius);
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.btn:active {
+    transform: scale(0.96);
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, var(--accent), var(--accent-dim));
+    color: #fff;
+    align-self: flex-start;
+}
+
+.btn-outline {
+    background: var(--panel-alt);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+}
+
+.btn-outline:hover {
+    color: var(--text);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+    transform: none;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    width: 380px;
+    max-width: calc(100vw - 40px);
+}
+
+.modal-card h2 {
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+
+#token-input {
+    width: 100%;
+    background: var(--panel-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    padding: 8px 10px;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+}
