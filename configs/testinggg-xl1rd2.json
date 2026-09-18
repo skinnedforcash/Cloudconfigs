@@ -1,0 +1,344 @@
+{
+  "name": "testinggg",
+  "description": "meow",
+  "author": "skinnedforcash",
+  "uploadedAt": "2026-09-18T21:19:10.713Z",
+  "config": {
+    "ForceAutoFiremode": false,
+    "TriggerbotDelay": 40,
+    "TriggerbotKey": {
+      "Type": "EnumItem",
+      "Name": "MouseButton2",
+      "Enum": "UserInputType"
+    },
+    "SpreadValue": 100,
+    "InstantBullet": false,
+    "AimbotConditions": [
+      "Team"
+    ],
+    "EnemyNameColor": {
+      "Color": {
+        "Hex": "ffffff",
+        "Type": "Color3"
+      },
+      "Transparency": 0
+    },
+    "InfiniteArmStamina": false,
+    "RecoilValue": 100,
+    "ShiftCache": false,
+    "SilentPrediction": false,
+    "EnemyMaxDistance": 800,
+    "EnemyHideDead": false,
+    "Tag Colors": [],
+    "ScanType": "Sphere",
+    "EnemyChams": false,
+    "EnemyBoxColor": {
+      "Color": {
+        "Hex": "ff5050",
+        "Type": "Color3"
+      },
+      "Transparency": 0
+    },
+    "ShiftCacheTolerance": 0.5,
+    "Widget Theme": {
+      "Visible": true,
+      "Position": {
+        "Y": 132,
+        "X": 1120
+      },
+      "Size": {
+        "Y": 480,
+        "X": 320
+      }
+    },
+    "EnemyHealth": false,
+    "NoclipKey Show": false,
+    "RagebotDebugHit": {
+      "Color": {
+        "Hex": "78ff78",
+        "Type": "Color3"
+      },
+      "Transparency": 0
+    },
+    "ShowDisabledKeybinds": false,
+    "Widget Notifications": {
+      "Visible": true,
+      "Position": {
+        "Y": 28,
+        "X": 20
+      },
+      "Size": {
+        "Y": 25,
+        "X": 210
+      }
+    },
+    "TriggerbotKey Mode": "Hold",
+    "SilentHitchance": 75,
+    "NoRestrictions": false,
+    "Widget Players": {
+      "Visible": false,
+      "Position": {
+        "Y": 415,
+        "X": 650
+      },
+      "Size": {
+        "Y": 393,
+        "X": 500
+      }
+    },
+    "ShiftMaxCacheSize": 5,
+    "SpeedKey Show": true,
+    "WallbangDistance": 70,
+    "__Fonts": {
+      "Tabs": {
+        "Selected": {
+          "Face": "Tahoma 8px",
+          "Weight": 700,
+          "Size": 12
+        },
+        "Hovered": {
+          "Face": "Tahoma 8px",
+          "Weight": 400,
+          "Size": 12
+        },
+        "Unselected": {
+          "Face": "Tahoma 8px",
+          "Weight": 400,
+          "Size": 12
+        }
+      },
+      "Global": {
+        "Face": "Tahoma 8px",
+        "Weight": 400,
+        "Size": 1
+      },
+      "Groups": {
+        "Section Unselected": {
+          "Face": "Tahoma 8px",
+          "Weight": 400,
+          "Size": 12
+        },
+        "Keybind Enabled": {
+          "Face": "Tahoma Bold"
+        },
+        "Notifications": {
+          "Face": "Tahoma Bold"
+        },
+        "Watermark": {
+          "Face": "Tahoma Bold"
+        },
+        "Section Selected": {
+          "Face": "Tahoma 8px",
+          "Weight": 700,
+          "Size": 12
+        },
+        "Section Hovered": {
+          "Face": "Tahoma 8px",
+          "Weight": 400,
+          "Size": 12
+        }
+      }
+    },
+    "WatermarkText": "",
+    "ForceHit": false,
+    "NoBulletDrop": false,
+    "FlyKey Show": true,
+    "GunModifyScope": "Current Weapon",
+    "RagebotDebugLimit": 60,
+    "Triggerbot": false,
+    "AimbotKey Show": true,
+    "Widget Window": {
+      "Visible": true,
+      "Position": {
+        "Y": 61,
+        "X": 20
+      },
+      "Size": {
+        "Y": 500,
+        "X": 600
+      }
+    },
+    "Player Recolor": [],
+    "OriginShift": false,
+    "TriggerbotKey Show": true,
+    "AimbotPenetration": 4,
+    "EnemyLimit": false,
+    "EnemyBox": false,
+    "FastFiremodeSwitch": false,
+    "AimbotShiftPoints": 12,
+    "AimbotRerollRate": 12,
+    "Player Tags": [],
+    "EnemyName": false,
+    "Widget Spotify": {
+      "Visible": false,
+      "Position": {
+        "Y": 340,
+        "X": 30
+      },
+      "Size": {
+        "Y": 104,
+        "X": 300
+      }
+    },
+    "RagebotDebug": false,
+    "Widget Watermark": {
+      "Visible": false,
+      "Position": {
+        "Y": 33,
+        "X": 46
+      },
+      "Size": {
+        "Y": 0,
+        "X": 0
+      }
+    },
+    "OriginShiftColor": {
+      "Color": {
+        "Hex": "ff5050",
+        "Type": "Color3"
+      },
+      "Transparency": 1
+    },
+    "EnemyChamsOccluded": {
+      "Color": {
+        "Hex": "ff78aa",
+        "Type": "Color3"
+      },
+      "Transparency": 0.5
+    },
+    "Player Colors": [],
+    "EnemyBoxStyle": "Corner",
+    "Player Hidden": [],
+    "ModifyFirerate": false,
+    "AimbotKey Mode": "Toggle",
+    "EnemyLimitCount": 8,
+    "FlyKey Mode": "Hold",
+    "Wallbang": false,
+    "ModifySpread": false,
+    "ModifyRecoil": false,
+    "AimbotHitpart": "Head",
+    "HitShiftPoints": 12,
+    "__Theme": {
+      "Outline": "07080a",
+      "Indev": "00d1ff",
+      "Text Color": {
+        "A": "ffffff",
+        "B": "8a8a92"
+      },
+      "Settings": {
+        "Rail": "3a3d45",
+        "Arrow": "98bcff"
+      },
+      "Toggle": {
+        "Outline": "24262d",
+        "Inactive": "1c1d23",
+        "Active": "98bcff"
+      },
+      "White": "ffffff",
+      "Keybind": {
+        "Outline": "07080a",
+        "Background": "1c1d23",
+        "Inline": "24262d"
+      },
+      "Accent": {
+        "A": "98bcff",
+        "B": "6e8cc8"
+      },
+      "Unsafe": "f5f079",
+      "Text Stroke": {
+        "Enabled": false,
+        "Color": "000000"
+      },
+      "Keybind List": {
+        "Enabled": "98bcff",
+        "Disabled": "8a8a92"
+      },
+      "Button": {
+        "Outline": "07080a",
+        "Gradient A": "131418",
+        "Gradient B": "17181d",
+        "Inline": "24262d"
+      },
+      "Dropdown": {
+        "Outline": "07080a",
+        "Gradient A": "1e1e23",
+        "Gradient B": "17171c",
+        "Inline": "2d2d32"
+      },
+      "Black": "000000",
+      "Shimmer": {
+        "Enabled": true,
+        "Transparency": 0.7,
+        "Color": "ffffff",
+        "Speed": 3
+      },
+      "TextBox": {
+        "Outline": "07080a",
+        "Background": "1c1d23",
+        "Inline": "24262d"
+      },
+      "Tabs": {
+        "Selected": "98bcff",
+        "Hovered": "ffffff",
+        "Unselected": "8a8a92"
+      },
+      "Contrast": {
+        "A": "24262d",
+        "D": "17181d",
+        "C": "131418",
+        "B": "101114"
+      },
+      "Slider": {
+        "Background": "1c1d23",
+        "Fill": "98bcff"
+      }
+    },
+    "NoclipKey Mode": "Always",
+    "AimbotEnabled": true,
+    "NoViewBobbing": false,
+    "AimbotKey": {
+      "Type": "EnumItem",
+      "Name": "E",
+      "Enum": "KeyCode"
+    },
+    "FirerateValue": 100,
+    "RagebotEnabled": false,
+    "Widget Keybinds": {
+      "Visible": true,
+      "Position": {
+        "Y": 735,
+        "X": 1250
+      },
+      "Size": {
+        "Y": 39,
+        "X": 62
+      }
+    },
+    "SpeedKey Mode": "Toggle",
+    "RagebotDebugMiss": {
+      "Color": {
+        "Hex": "ff7878",
+        "Type": "Color3"
+      },
+      "Transparency": 0
+    },
+    "EnemyChamsVisible": {
+      "Color": {
+        "Hex": "78aaff",
+        "Type": "Color3"
+      },
+      "Transparency": 0.5
+    },
+    "HitShift": false,
+    "OriginShiftPoints": 12,
+    "SpeedAmount": 20,
+    "OriginShiftRange": 6,
+    "Notification style": "Library",
+    "HitShiftRange": 6,
+    "BunnyHopChance": 100,
+    "EnemyHealthText": false,
+    "InstantEquip": false,
+    "BunnyHop": false,
+    "EnemyChamsMaterial": "Flat"
+  }
+}
